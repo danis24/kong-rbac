@@ -1,8 +1,8 @@
 FROM kong:1.3.0-alpine
 MAINTAINER Danis Yogaswara <danis@aniqma.com>
 
-ENV KONG_VERSION 0.14.1
-ENV KONG_IMAGES_TAG 3.0.0
+ENV KONG_VERSION 1.3.0
+ENV KONG_IMAGES_TAG 1.3.0
 ENV KONG_DATABASE postgres
 ENV KONG_PLUGINS 'bundled, rbac'
 
