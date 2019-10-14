@@ -5,7 +5,7 @@ This is a rbac plugin for kong CE.
 ## INSTALLATION
 
 ```
-luarocks install --server=http://luarocks.org/manifests/hhy5861 kong-plugin-rbac
+luarocks install --server=http://luarocks.org/manifests/danis24 kong-plugin-rbac
 ```
 
 set environment
@@ -99,7 +99,7 @@ Update a role that you added before.
 }
 ```
 
-### Create  association between consumer and roles 
+### Create  association between consumer and roles
 
 > **POST** "/consumers/:username_or_id/rbac-roles/"
 ```json

@@ -1,6 +1,6 @@
 kong:
   container_name: some-kong
-  image: hhy5861/kong-rbac:2.1.2
+  image: danis24/kong-rbac:2.1.2
   restart: always
   links:
     - some-kong-postgres:kong-database
